@@ -1,0 +1,98 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fst.png'); /* Utilisez le nom de votre image */
+    background-size: cover; /* Pour couvrir tout l'arrière-plan */
+    background-position: center; /* Centrer l'image */
+    color: #fff; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent pour une meilleure lisibilité */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    width: 150px; /* Ajustez la taille du logo selon vos besoins */
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Jaune orangé pour le titre */
+    margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input,
+form select {
+    width: 100%;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #ff6600; /* Orange */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff4500; /* Orange plus foncé */
+}
+
+/* Messages d'erreur */
+.error {
+    color: #ff6666; /* Rouge clair pour les messages d'erreur */
+    text-align: center;
+    margin-top: 10px;
+}
+.logout-button {  
+    position: absolute;  
+    top: 20px;  
+    right: 20px;  
+    background-color: #ff6600;  
+    color: white;  
+    padding: 10px 15px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+}  
+
+.logout-button:hover {  
+    background-color: #ffcc00;  
+}
